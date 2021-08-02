@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: limegreen;    
+    overflow-y: hidden;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 120px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.logo{
+    margin: 30px 120px;
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.content h5{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.content p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.content h6{
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.content ul li {
+    margin-top: 18px;
+    list-style: none;
+}
+
+.content a{
+    color: cyan;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.content a:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+.picture{
+    position: absolute;
+    top: 60%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    margin-top: 60px;
+}
+
+.picture img{
+    width: 350px;
+}
+
+.picture:hover{
+    filter: grayscale(100%);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    float: left;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background-color: #606770;
+    
+}
+
+.row h6{
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.row p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 10px 50px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.col{
+    flex-basis: 50%;
+    width:50%;
+}
+
+#logo{
+    width: 200px;
+    margin-top: -90px;
+    margin-left: 240px;
+}
+
+
+.images{
+    width: 176px;
+}
+
+.row a{
+    color: blue;
+    text-decoration: none;
+}
+
+.row h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.row h5{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: red;
+}
+
+.row .p1{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
+.images{
+    width: 200px;
+    margin-top: -50px;
+    margin-left: 240px;
+}
+
+button{
+    position: absolute;
+    top: 233%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    color: cyan;
+    border-radius: 25px;
+    border: 2px solid cyan;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+
+.footer{
+    position: absolute;
+    top: 260%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+
+.footer ul{
+    margin-left: 100px;
+}
+
+.footer ul li{
+    margin-top: 20px;
+}
+
+.footer ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    float: left;
+}
+
+
+
+.footer h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer1{
+    position: absolute;
+    top: 260%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+}
+
+.footer1 ul{
+    margin-left: 100px;
+}
+
+.footer1 ul li{
+    margin-top: 20px;
+}
+
+.footer1 ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footer1 h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.footerx{
+    position: absolute;
+    top: 260%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    float: left;
+}
+
+.footerx ul{
+    margin-left: 300px;
+}
+
+.footerx ul li{
+    margin-top: 20px;
+}
+
+.footerx ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footerx h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footery{
+    position: absolute;
+    top: 251%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    float: left;
+}
+
+.footery ul{
+    margin-left: 700px;
+}
+
+.footery ul li{
+    margin-top: 20px;
+}
+
+.footery ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footery h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footerd{
+    position: absolute;
+    top: 254%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
+    float: left;
+}
+
+.footerd ul{
+    margin-left: 1200px;
+}
+
+.footerd ul li{
+    margin-top: 20px;
+}
+
+.footerd ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footerd h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.kare{
+      position: absolute;
+      top: 300%;
+      left: 18%;
+      transform: translate(-50%,-50%);
+      display: flex;
+}
+
+.kare h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    
+}
+
+.kare h5{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+}
+
